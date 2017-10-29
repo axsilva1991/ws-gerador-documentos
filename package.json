@@ -1,0 +1,21 @@
+{
+  "author": "Anderson Xavier",
+  "license": "",
+  "version": "1.0.0",
+  "description": "Aplicação RESTful API - Node.Js",
+  "name": "node-api",
+  "main": "server.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec"
+  },
+  "dependencies": {
+    "body-parser": "~1.0.1",
+    "express": "~4.0.0",
+    "mongoose": "*",
+    "request": "^2.74.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  }
+}
